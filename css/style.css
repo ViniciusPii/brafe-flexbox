@@ -44,6 +44,10 @@ img {
 	list-style-type: none;
 }
 
+.menu-logo {
+	margin: 0 10px;
+}
+
 .menu-nav a {
 	text-decoration: none;
 	color: #fff;
@@ -314,3 +318,89 @@ h2.produtos-mineiro::before {
 .footer img {
 	float: right;
 }
+
+/* responsivo */
+
+@media only screen and (max-width: 739px) {
+	.container {
+		flex-direction: column;
+		max-width: 300px;
+	}
+}
+
+/* menu */
+
+@media only screen and (max-width: 739px) {
+	.menu-nav {
+		margin: 0;
+	}
+	.menu-logo{
+		margin: 0;
+		align-self: center;
+		margin-bottom: 20px;
+	}
+	.menu-nav  a{
+		padding: 5px;
+	}
+}
+
+/* intro */
+
+@media only screen and (max-width: 739px) {
+	.intro {
+		padding: 60px 0;
+	}
+}
+
+/* produtos */
+
+@media only screen and (max-width: 739px) {
+	.produtos-item {
+		margin-bottom: 30px;
+	}
+}
+
+/* locais */
+
+@media only screen and (max-width: 739px) {
+	.locais {
+		padding: 60px 0 -60px 0;
+		margin-bottom: -65px;
+		text-align: center;
+	}
+	.locais-item {
+		margin-bottom: 80px;
+	}
+	.locais-item h2 {
+		padding: 20px;
+	}
+}
+
+/* assine */
+
+@media only screen and (max-width: 739px) {
+	.assine {
+		text-align: center;
+	}
+	.assine-info {
+		margin: 0 0 20px 0;
+	}
+	.assine form {
+		margin: 0;
+	}
+}
+
+/* footer */
+
+@media only screen and (max-width: 739px) {
+	.footer img, .footer p {
+		margin: 10px 0;
+		text-align: center;
+	}
+	.footer img {
+		padding-right: 80px;
+	}
+}
+
+
+
